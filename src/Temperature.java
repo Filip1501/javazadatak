@@ -39,6 +39,7 @@ public class Temperature{
             System.out.printf("Prosjecna temperatura: %.2f%n", prosjek);
             if(povisenomjerenje!=0){
                 System.out.println("Broj povisenih mjerenja: " + povisenomjerenje);
+                System.out.println("Povišena temperatura zabilježena.");
             } else {
                 System.out.println("Nema povisenih mjerenja.");
             }
